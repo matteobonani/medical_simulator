@@ -1,0 +1,113 @@
+[
+  {
+    "name": "Sepsis",
+    "symptoms_timeline": [
+      { "name": "fever", "from_hour": 0 },
+      { "name": "fatigue", "from_hour": 1 },
+      { "name": "confusion", "from_hour": 4 }
+    ],
+    "blood_findings": [
+      "elevated white blood cells",
+      "high CRP"
+    ],
+    "xray_findings": [
+      "lung infiltrates"
+    ],
+    "base_temperature": 39.0,
+    "base_systolic_bp": 90,
+    "severity": 3,
+    "initial_health_range": [60, 75],
+    "correct_treatments": [
+      "IV Fluids",
+      "Antibiotics"
+    ]
+  },
+
+  {
+    "name": "Dehydration",
+    "symptoms_timeline": [
+      { "name": "dry mouth", "from_hour": 0 },
+      { "name": "dizziness", "from_hour": 1 },
+      { "name": "fatigue", "from_hour": 2 }
+    ],
+    "blood_findings": [
+      "elevated hematocrit"
+    ],
+    "xray_findings": [],
+    "base_temperature": 37.2,
+    "base_systolic_bp": 105,
+    "severity": 2,
+    "initial_health_range": [70, 85],
+    "correct_treatments": [
+      "IV Fluids",
+      "Rest"
+    ]
+  },
+
+  {
+    "name": "Flu",
+    "symptoms_timeline": [
+      { "name": "fever", "from_hour": 0 },
+      { "name": "headache", "from_hour": 1 },
+      { "name": "muscle pain", "from_hour": 2 },
+      { "name": "cough", "from_hour": 3 }
+    ],
+    "blood_findings": [
+      "mild leukopenia"
+    ],
+    "xray_findings": [],
+    "base_temperature": 38.5,
+    "base_systolic_bp": 110,
+    "severity": 1,
+    "initial_health_range": [80, 95],
+    "correct_treatments": [
+      "Rest",
+      "Observation"
+    ]
+  },
+
+  {
+    "name": "Pneumonia",
+    "symptoms_timeline": [
+      { "name": "fever", "from_hour": 0 },
+      { "name": "productive cough", "from_hour": 2 },
+      { "name": "shortness of breath", "from_hour": 4 }
+    ],
+    "blood_findings": [
+      "elevated white blood cells"
+    ],
+    "xray_findings": [
+      "lung consolidation"
+    ],
+    "base_temperature": 38.8,
+    "base_systolic_bp": 100,
+    "severity": 2,
+    "initial_health_range": [65, 85],
+    "correct_treatments": [
+      "Antibiotics",
+      "IV Fluids"
+    ]
+  },
+
+  {
+    "name": "Gastroenteritis",
+    "symptoms_timeline": [
+      { "name": "abdominal pain", "from_hour": 0 },
+      { "name": "diarrhea", "from_hour": 1 },
+      { "name": "nausea", "from_hour": 1 },
+      { "name": "fatigue", "from_hour": 3 }
+    ],
+    "blood_findings": [
+      "electrolyte imbalance"
+    ],
+    "xray_findings": [],
+    "base_temperature": 37.8,
+    "base_systolic_bp": 110,
+    "severity": 1,
+    "initial_health_range": [75, 90],
+    "correct_treatments": [
+      "IV Fluids",
+      "Rest"
+    ]
+  }
+]
