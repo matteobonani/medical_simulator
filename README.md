@@ -14,6 +14,7 @@ A text-based clinical decision-making simulator where the player takes on the ro
 
 The simulation ends after a fixed number of days.
 
+---
 
 ## How to Start
 
@@ -49,7 +50,7 @@ Time always advances and patients may worsen while you wait.
 
 ---
 
-## 🗂️ Project Structure
+## Project Structure
 
 ```
 medical_simulator/
@@ -73,5 +74,4 @@ medical_simulator/
 └── main.py
 ```
 
----
 
