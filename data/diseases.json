@@ -2,9 +2,8 @@
   {
     "name": "Sepsis",
     "symptoms_timeline": [
-      { "name": "fever", "from_hour": 0 },
-      { "name": "fatigue", "from_hour": 1 },
-      { "name": "confusion", "from_hour": 4 }
+      { "name": "fatigue", "from_hour": 0 },
+      { "name": "confusion", "from_hour": 3 }
     ],
     "blood_findings": [
       "elevated white blood cells",
@@ -20,6 +19,9 @@
     "correct_treatments": [
       "IV Fluids",
       "Antibiotics"
+    ],
+    "ecg_findings": [
+      "sinus tachycardia"
     ]
   },
 
@@ -41,16 +43,18 @@
     "correct_treatments": [
       "IV Fluids",
       "Rest"
+    ],
+    "ecg_findings": [
+      "sinus tachycardia"
     ]
   },
 
   {
     "name": "Flu",
     "symptoms_timeline": [
-      { "name": "fever", "from_hour": 0 },
-      { "name": "headache", "from_hour": 1 },
-      { "name": "muscle pain", "from_hour": 2 },
-      { "name": "cough", "from_hour": 3 }
+      { "name": "headache", "from_hour": 0 },
+      { "name": "muscle pain", "from_hour": 1 },
+      { "name": "cough", "from_hour": 2 }
     ],
     "blood_findings": [
       "mild leukopenia"
@@ -63,14 +67,14 @@
     "correct_treatments": [
       "Rest",
       "Observation"
-    ]
+    ],
+    "ecg_findings": []
   },
 
   {
     "name": "Pneumonia",
     "symptoms_timeline": [
-      { "name": "fever", "from_hour": 0 },
-      { "name": "productive cough", "from_hour": 2 },
+      { "name": "productive cough", "from_hour": 0 },
       { "name": "shortness of breath", "from_hour": 4 }
     ],
     "blood_findings": [
@@ -86,6 +90,9 @@
     "correct_treatments": [
       "Antibiotics",
       "IV Fluids"
+    ],
+    "ecg_findings": [
+      "sinus tachycardia"
     ]
   },
 
@@ -108,6 +115,7 @@
     "correct_treatments": [
       "IV Fluids",
       "Rest"
-    ]
+    ],
+    "ecg_findings": []
   }
 ]

@@ -1,4 +1,25 @@
+from typing import Any
+
+
 class Treatment:
+    """
+    Object that represents a treatment or diagnostic action that can be performed on a patient.
+
+    Attributes
+    ----------
+    name : str
+        The name of the treatment or test.
+    effect : int, optional (default=0)
+        The positive effect on patient health if the treatment is correct.
+    penalty : int, optional (default=0)
+        The negative effect on patient health if the treatment is incorrect.
+    time_cost : int, optional (default=1)
+        The number of hours the treatment or test takes to perform.
+    description : str, optional (default="")
+        A brief description of the treatment or test.
+    test_type : str or None, optional (default=None)
+        The type of diagnostic test, e.g., "blood", "xray", "vitals", or "ecg".
+    """
     def __init__(
         self,
         name,
@@ -15,10 +36,7 @@ class Treatment:
         self.description = description
         self.test_type = test_type
 
-    def info(self):
-        """
-        Return a dictionary with the treatment's details.
-        """
+    def info(self) -> dict[str, Any]:
         return {
             "Name": self.name,
             "Effect": self.effect,
