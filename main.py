@@ -6,9 +6,10 @@ from medical_simulator.core.waiting_room import WaitingRoom
 from medical_simulator.core.simulator_controller import SimulatorController
 import sys
 import os
+from pathlib import Path
 
-sys.path.append(os.path.dirname(__file__))
 
+BASE_DIR = Path(__file__).parent
 
 def build_treatments():
     return [
@@ -22,7 +23,10 @@ def build_treatments():
 
 
 def main():
-    diseases = load_diseases_from_json("data/diseases.json")
+
+
+    diseases_path = BASE_DIR / "data" / "diseases.json"
+    diseases = load_diseases_from_json(str(diseases_path))
     treatments = build_treatments()
 
     hospital = Hospital(

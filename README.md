@@ -19,8 +19,10 @@ The simulation ends after a fixed number of days.
 ## How to Start
 
 1. Start the simulator
+
+Execute the following command from the folder containing the medical_simulator package
 ```bash
-python main.py
+python -m medical_simulator.main
 ```
 2. Play
 
